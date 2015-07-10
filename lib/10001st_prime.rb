@@ -7,7 +7,6 @@ def prime_number_for(nth_element)
       prime = i
       prime_count += 1
     end
-    # binding.pry
     return prime if prime_count == nth_element
   end
 end
